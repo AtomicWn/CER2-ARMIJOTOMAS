@@ -1,0 +1,49 @@
+
+body {
+    background-color: #005e90;
+}
+
+.main-head{
+    background: #FFF;
+}
+
+
+.sidenav {
+    height: 100vh;
+    width: 25vw;
+    background-color: #e5b300;
+    overflow-x: hidden;
+    padding-top: 10%;
+}
+
+.main {
+    padding: 0% 1%;
+}
+
+.login-form{
+    margin-top: 80%;
+}
+
+.register-form{
+    margin-top: 20%;
+}
+
+
+
+.login-main-text{
+    margin-top: 20%;
+    padding-left: 20%;
+    padding-right: 20%;
+    color: #fff;
+}
+
+.login-main-text h2{
+    font-weight: 300;
+}
+
+.btn-black{
+    background-color: darkred !important;
+    color: #fff;
+}
+
+

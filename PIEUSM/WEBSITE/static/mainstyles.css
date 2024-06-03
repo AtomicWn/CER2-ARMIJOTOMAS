@@ -1,0 +1,126 @@
+
+section {
+    padding: 60px 0;
+    min-height: 100vh; 
+    display: flex;
+    align-items: center;
+}
+  
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #074469 !important;
+    height: 10vh;
+    padding-bottom: 0%;
+    padding-top: 0%;
+}
+  
+
+.navbar-nav {
+    margin-left: auto;
+}
+  
+
+#section1 {
+    background: url('svm.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    height: 30vh;
+}
+
+#section2 {
+    background-color: #8C92A6;
+    color: #000;
+    height: 30vh;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    
+}
+#section2 p {
+    color: #e5b300;
+    font-size: x-large;
+}
+.table {
+    margin: auto;
+    max-width: 80%;
+}
+
+
+#section3 {
+    height: 30vh;
+    color: white;
+}
+#loginform {
+    margin-left: 0%;
+    color: #000;
+}
+
+#loginform h1{
+    text-align: center;
+}
+
+#loginform img {
+    margin-left: 11%;
+}
+#fondologin {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-left: 30%;
+    background-color: #fff;
+    border-color: #8C92A6;
+    border-width: 2px;
+    border-style: solid;
+}
+
+#barracolores {
+height: 100%;
+}
+
+#switchlogin {
+    margin-left: 10%;
+}
+
+#containerswitch {
+    width: 22vw;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+#register-form {
+    height: 100vh;
+}
+#login-form {
+    height: 100vh;
+}
+#divregister {
+    display: inline;
+}
+
+#logoutxd {
+    display: block;
+    border-color: var(--bs-nav-link-color);
+    color: var(--bs-nav-link-color);
+}
+#logoutxd:hover{
+    background-color: #e5b300;
+}
+
+#botoniniciativas {
+    background-color: #e5b300;
+    border-color: #e5b300;
+}
+
+
+#textobienvenida {
+    font-weight: 200;
+}
+
+.propuestas-container {
+    overflow-y: auto;
+    max-height: 50vh;
+}
