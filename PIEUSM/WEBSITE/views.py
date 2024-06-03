@@ -53,9 +53,9 @@ def main_view(request):
     is_authenticated = request.user.is_authenticated
     
     if not(is_authenticated) and tema_filter == 'Todos los Temas':
-        proyectos = Propuesta.objects.all()
+        proyectos = Propuesta.objects.exclude(profesor = '')
     elif not(is_authenticated) and tema_filter != 'Todos los Temas':
-        proyectos = Propuesta.objects.filter(tema=tema_filter)
+        proyectos = Propuesta.objects.exclude(profesor = '').filter(tema=tema_filter)
     elif is_estudiante:
         proyectos = Propuesta.objects.all()
     
